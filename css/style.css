@@ -52,12 +52,13 @@ nav ul li a {
     border: 0;
     padding: 15px 35px;
 }
+
 /* header style work start here */
-.header {
+.header{
     background-color: #FFF8F3;
-    background-image: url('../img/header_bg.png');
+    background-image: url('../img/header_bg.png'), url('../img/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, bottom left;
 }
 
 /* banner style work start here */
@@ -221,9 +222,11 @@ main section {
     font-size: 26px;
     font-weight: 700;
 }
-hr{
-    color:#EEEEEE!important;
+
+hr {
+    color: #EEEEEE !important;
 }
+
 .resume-item {
     padding-right: 60px;
 }
@@ -248,6 +251,49 @@ hr{
     line-height: 28px;
 
 }
-.btn-style{
+
+.btn-style {
     text-align: center;
 }
+
+footer {
+    padding: 100px;
+    margin: 100px auto;
+    display: flex;
+    gap: 100px;
+    background-color: #FFEADC;
+}
+.footer-coloum{
+    width: 50%;
+    
+}
+.footer-title {
+    color: #181818;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.left-footer-des {
+    padding-right: 60px;
+    color: #474747;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.footer-social-icon img{    
+    width: 22px;
+}
+
+.contact-form input[type='text'], input[type='email'],textarea{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: none;
+
+}
+.contact-form input[type='text'], input[type='email']{
+    height: 50px;
+}
+::placeholder {
+    padding: 10px;
+  }
