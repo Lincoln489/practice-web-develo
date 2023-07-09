@@ -52,7 +52,6 @@ nav ul li a {
     border: 0;
     padding: 15px 35px;
 }
-
 /* header style work start here */
 .header {
     background-color: #FFF8F3;
@@ -111,10 +110,19 @@ nav ul li a {
 }
 
 /* main section style work start here */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* about section style work start here */
 .about {
     border-radius: 10px;
     background-color: #FFEADC;
-    margin: 230px;
     padding: 100px 130px;
     text-align: center;
 }
@@ -123,10 +131,11 @@ nav ul li a {
     color: #181818;
     font-size: 35px;
     font-weight: 700;
+    text-align: center;
 }
 
 .section-des {
-    color:#757575;
+    color: #757575;
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
@@ -137,19 +146,108 @@ nav ul li a {
     justify-content: space-between;
 }
 
-.about-info  {
+.about-info {
     text-align: center;
     font-size: 16px;
     line-height: 30px;
 
 }
-.info-title{
+
+.info-title {
     color: #757575;
     font: 400;
-    
+
 }
-.info-des{
+
+.info-des {
     color: #474747;
     font-weight: 700;
-    
+
+}
+
+/* Our work section style work start here */
+.projects {
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+#project-des-area {
+    padding: 0 150px;
+}
+
+.skills-content {
+    display: flex;
+    text-align: center;
+}
+
+.skills-info {
+    width: 260px;
+    padding: 30px;
+    text-align: left;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.09);
+    margin: 10px;
+}
+
+.img {
+    width: 44px;
+    height: 44px;
+}
+
+.skills-info-title {
+    color: #181818;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.skills-info-des {
+    color: #757575;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+/* resume-content style start here */
+.resume-content {
+    display: flex;
+}
+
+.resume-column {
+    margin: 24px;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 26px;
+    font-weight: 700;
+}
+hr{
+    color:#EEEEEE!important;
+}
+.resume-item {
+    padding-right: 60px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.resume-item-institude-info {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.resume-item-des {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+.btn-style{
+    text-align: center;
 }
